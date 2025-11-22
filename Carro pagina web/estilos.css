@@ -1,0 +1,79 @@
+/* RESET Y FUENTES */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family: 'Poppins', sans-serif; background:#0d0d0d; color:#fff; line-height:1.6;}
+a {text-decoration:none;}
+
+/* HEADER / NAV */
+header {background:#111; padding:15px 0; position:sticky; top:0; z-index:1000;}
+header h1 {text-align:center; color:#00ffff; margin-bottom:10px;}
+.menu {display:flex; justify-content:center; gap:20px; list-style:none;}
+.menu li a {color:#fff; font-weight:600; transition:color 0.3s;}
+.menu li a:hover {color:#00ffff;}
+
+/* HERO */
+.hero {text-align:center; padding:20px;}
+.hero img {max-width:100%; border-radius:15px; box-shadow:0 0 20px #00FFFF; margin-bottom:15px;}
+
+/* SECCIONES */
+section {padding:40px 20px; max-width:1200px; margin:auto;}
+section h2 {color:#00ffff; text-align:center; margin-bottom:20px;}
+.imagenes-mapa, .equipos {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+.equipos .equipo {background:#111; padding:15px; border-radius:15px; max-width:350px; text-align:center;}
+.imagenes-mapa img, .equipos img, #drifting img {max-width:100%; border-radius:10px; box-shadow:0 0 17px #00ffff; margin-bottom:15px;}
+
+/* FORMULARIO */
+form {display:flex; flex-direction:column; max-width:600px; margin:auto; gap:15px;}
+form input, form textarea {padding:10px; border-radius:10px; border:none; outline:none;}
+form button {padding:12px; border-radius:10px; border:none; background:#00ffff; color:#111; font-weight:700; cursor:pointer; transition:background 0.3s;}
+form button:hover {background:#00bfbf;}
+
+/* DESCARGA */
+.btn-descarga {display:inline-block; background:#00ffff; color:#111; padding:15px 25px; border-radius:10px; font-weight:700; transition:background 0.3s;}
+.btn-descarga:hover {background:#00bfbf;}
+
+.autos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.autos img {
+    width: 500px;
+    margin-left: 200px;
+}
+
+#mapas img{
+	border-radius: 10px;
+	padding: 0px;
+	box-shadow:0 0 15px #00ffff,
+	           0 0 15px #00ffff;
+}
+
+#autos img {
+	border-radius: 10px;
+	padding: 0px;
+	box-shadow: 0 0 15px #ff0000,
+	            0 0 30px #ff0000;
+}
+
+#jugabilidad img {
+    border-radius: 10px;         /* Bordes redondeados */
+    padding: 0px;                /* Espacio entre imagen y borde */
+    box-shadow: 0 0 15px #00ffff, 
+                0 0 15px #00ffff;  /* Efecto brillo */
+}
+
+#autos video {
+    border-radius: 10px;
+    padding:0px;
+    box-shadow:0 0 15px #00ffff, 
+               0 0 15px #00ffff;
+}
+
+
+/* FOOTER */
+footer {text-align:center; padding:20px; background:#111; border-top:1px solid #00ffff; margin-top:20px;}
+
+
+
+
